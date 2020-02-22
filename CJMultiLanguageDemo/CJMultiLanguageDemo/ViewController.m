@@ -28,8 +28,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.testLabel];
-    self.testLabel.text = @"测试文案";
+    self.testLabel.text = NSLocalizedString(@"test_text", @"");
     
     [self.testLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(self.view);
