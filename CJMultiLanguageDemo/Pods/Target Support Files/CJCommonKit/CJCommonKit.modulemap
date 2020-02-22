@@ -1,0 +1,6 @@
+framework module CJCommonKit {
+  umbrella header "CJCommonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

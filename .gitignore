@@ -1,68 +1,28 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+.DS_Store
 
-## User settings
-xcuserdata/
+CJMultiLanguageDemo.xcodeproj/project.xcworkspace/xcuserdata/*
 
-## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
-*.xcscmblueprint
-*.xccheckout
+CJMultiLanguageDemo.xcodeproj/xcuserdata/*
 
-## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
-build/
-DerivedData/
-*.moved-aside
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
+CJMultiLanguageDemo.xcworkspace/xcuserdata/chenxiaojie.xcuserdatad/UserInterfaceState.xcuserstate
+CJMultiLanguageDemo.xcworkspace/xcuserdata/chenxiaojie.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
 
-## Obj-C/Swift specific
-*.hmap
+#CJMultiLanguageDemo.xcworkspace/xcuserdata/*
 
-## App packaging
-*.ipa
-*.dSYM.zip
-*.dSYM
+#CJMultiLanguageDemo.xcworkspace/contents.xcworkspacedata
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+#CJMultiLanguageDemo.xcworkspace/xcshareddata/*
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+Pods/Pods.xcodeproj/xcuserdata/*
 
-Carthage/Build/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+# *.xcbkptlist
+# *.xcuserstate
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
 
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
-
-iOSInjectionProject/
+# 并未生效，原因是.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经>被纳入了版本管理中，则修改.gitignore是
+无效的。那么解决方法就是先把本地缓存删除（改变成未track状态），然后再提交:
+# git rm -r —-cached .
+# git add .
+# git commit -m'update .gitignore'
+# /* 参考文章: https://www.cnblogs.com/kevingrace/p/5690241.html */

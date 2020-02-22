@@ -1,0 +1,6 @@
+framework module Pods_CJMultiLanguageDemoTests {
+  umbrella header "Pods-CJMultiLanguageDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

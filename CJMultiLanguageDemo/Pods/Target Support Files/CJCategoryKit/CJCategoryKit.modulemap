@@ -1,0 +1,6 @@
+framework module CJCategoryKit {
+  umbrella header "CJCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

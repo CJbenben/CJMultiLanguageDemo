@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-CJMultiLanguageDemo/Pods-CJMultiLanguageDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework
+${BUILT_PRODUCTS_DIR}/CJBaseKit/CJBaseKit.framework
+${BUILT_PRODUCTS_DIR}/CJCategoryKit/CJCategoryKit.framework
+${BUILT_PRODUCTS_DIR}/CJCommonKit/CJCommonKit.framework
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

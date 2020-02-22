@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+
+platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target 'CJMultiLanguageDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  #  CJBaseKit 包含: MJExtension、Masonry、CJCategoryKit、CJCommonKit、lottie-ios、SDWebImage
+  pod 'CJBaseKit', '= 0.1.3'
+  # 组件化工具
+  pod 'CTMediator'
+  pod 'ReactiveObjC'
+  pod 'Aspects'
+  
+  
+  # Pods for CJMultiLanguageDemo
+
+  target 'CJMultiLanguageDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CJMultiLanguageDemoUITests' do
+    # Pods for testing
+  end
+
+end
