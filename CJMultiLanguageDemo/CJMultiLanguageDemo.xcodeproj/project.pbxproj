@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D83886823FFA6AE00ECADF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D83886723FFA6AE00ECADF2 /* AppDelegate.m */; };
-		7D83886B23FFA6AE00ECADF2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D83886A23FFA6AE00ECADF2 /* SceneDelegate.m */; };
 		7D83886E23FFA6AE00ECADF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D83886D23FFA6AE00ECADF2 /* ViewController.m */; };
 		7D83887323FFA6B200ECADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D83887223FFA6B200ECADF2 /* Assets.xcassets */; };
 		7D83887623FFA6B200ECADF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D83887423FFA6B200ECADF2 /* LaunchScreen.storyboard */; };
@@ -38,6 +36,8 @@
 		7D8388EF2400BFC000ECADF2 /* TXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8388EE2400BFC000ECADF2 /* TXHomeViewController.m */; };
 		7D8388F22400C22400ECADF2 /* TXPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8388F12400C22400ECADF2 /* TXPersonViewController.m */; };
 		7D8388F52400C59800ECADF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8388F32400C59800ECADF2 /* Main.storyboard */; };
+		7D8388FB2400C95900ECADF2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8388F82400C95900ECADF2 /* SceneDelegate.m */; };
+		7D8388FC2400C95900ECADF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8388F92400C95900ECADF2 /* AppDelegate.m */; };
 		85663BA84F7802920571C1DE /* Pods_CJMultiLanguageDemo_CJMultiLanguageDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839D459C6133775BB6119A53 /* Pods_CJMultiLanguageDemo_CJMultiLanguageDemoUITests.framework */; };
 		9DB0A95727558826E5ED71E2 /* Pods_CJMultiLanguageDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9664E6C0BE4C847494B4FB8 /* Pods_CJMultiLanguageDemoTests.framework */; };
 		BD54F66E1085D0FB631BC13F /* Pods_CJMultiLanguageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC2C6732EBFFA58F25036B5 /* Pods_CJMultiLanguageDemo.framework */; };
@@ -65,10 +65,6 @@
 		5BF1066901E11381DA0F6F06 /* Pods-CJMultiLanguageDemo-CJMultiLanguageDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMultiLanguageDemo-CJMultiLanguageDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CJMultiLanguageDemo-CJMultiLanguageDemoUITests/Pods-CJMultiLanguageDemo-CJMultiLanguageDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5C72AF6ED02BBC212524247D /* Pods-CJMultiLanguageDemo-CJMultiLanguageDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMultiLanguageDemo-CJMultiLanguageDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CJMultiLanguageDemo-CJMultiLanguageDemoUITests/Pods-CJMultiLanguageDemo-CJMultiLanguageDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D83886323FFA6AE00ECADF2 /* CJMultiLanguageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJMultiLanguageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D83886623FFA6AE00ECADF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7D83886723FFA6AE00ECADF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D83886923FFA6AE00ECADF2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		7D83886A23FFA6AE00ECADF2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		7D83886C23FFA6AE00ECADF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7D83886D23FFA6AE00ECADF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7D83887223FFA6B200ECADF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,6 +122,10 @@
 		7D8388F02400C22400ECADF2 /* TXPersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXPersonViewController.h; sourceTree = "<group>"; };
 		7D8388F12400C22400ECADF2 /* TXPersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXPersonViewController.m; sourceTree = "<group>"; };
 		7D8388F42400C59800ECADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D8388F72400C95900ECADF2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D8388F82400C95900ECADF2 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7D8388F92400C95900ECADF2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D8388FA2400C95900ECADF2 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		839D459C6133775BB6119A53 /* Pods_CJMultiLanguageDemo_CJMultiLanguageDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJMultiLanguageDemo_CJMultiLanguageDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		941E8449BFA74FB6702C54D7 /* Pods-CJMultiLanguageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMultiLanguageDemo.release.xcconfig"; path = "Target Support Files/Pods-CJMultiLanguageDemo/Pods-CJMultiLanguageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		95D1B67D33AFEB107FD02CB7 /* Pods-CJMultiLanguageDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMultiLanguageDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CJMultiLanguageDemoTests/Pods-CJMultiLanguageDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -200,12 +200,9 @@
 		7D83886523FFA6AE00ECADF2 /* CJMultiLanguageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7D83886623FFA6AE00ECADF2 /* AppDelegate.h */,
-				7D83886723FFA6AE00ECADF2 /* AppDelegate.m */,
+				7D8388F62400C95900ECADF2 /* AppDelegate */,
 				7D8388EC2400BFA800ECADF2 /* Section */,
 				7D83889F2400BDBC00ECADF2 /* Base */,
-				7D83886923FFA6AE00ECADF2 /* SceneDelegate.h */,
-				7D83886A23FFA6AE00ECADF2 /* SceneDelegate.m */,
 				7D83886C23FFA6AE00ECADF2 /* ViewController.h */,
 				7D83886D23FFA6AE00ECADF2 /* ViewController.m */,
 				7D8388F32400C59800ECADF2 /* Main.storyboard */,
@@ -347,6 +344,17 @@
 				7D8388F12400C22400ECADF2 /* TXPersonViewController.m */,
 			);
 			path = Section;
+			sourceTree = "<group>";
+		};
+		7D8388F62400C95900ECADF2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7D8388F72400C95900ECADF2 /* AppDelegate.h */,
+				7D8388F92400C95900ECADF2 /* AppDelegate.m */,
+				7D8388FA2400C95900ECADF2 /* SceneDelegate.h */,
+				7D8388F82400C95900ECADF2 /* SceneDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		A5703A5E8071E1CF0ABDC047 /* Frameworks */ = {
@@ -599,11 +607,11 @@
 			files = (
 				7D83886E23FFA6AE00ECADF2 /* ViewController.m in Sources */,
 				7D8388E62400BDBC00ECADF2 /* HMBaseAlignFlowLayout.m in Sources */,
+				7D8388FB2400C95900ECADF2 /* SceneDelegate.m in Sources */,
 				7D8388DA2400BDBC00ECADF2 /* CALayer+Xib_Config.m in Sources */,
 				7D8388E02400BDBC00ECADF2 /* HMBaseNaviViewController.m in Sources */,
 				7D8388E72400BDBC00ECADF2 /* HMBaseFlowLayout.m in Sources */,
 				7D8388E52400BDBC00ECADF2 /* HMBaseView.m in Sources */,
-				7D83886823FFA6AE00ECADF2 /* AppDelegate.m in Sources */,
 				7D8388D82400BDBC00ECADF2 /* UIImage+LaunchImage.m in Sources */,
 				7D8388E42400BDBC00ECADF2 /* HMBaseModel.m in Sources */,
 				7D8388EB2400BDBC00ECADF2 /* CTMediator+HMCustom.m in Sources */,
@@ -617,11 +625,11 @@
 				7D8388D72400BDBC00ECADF2 /* UIImageView+SDCategory.m in Sources */,
 				7D8388DD2400BDBC00ECADF2 /* UITabBar+Custom.m in Sources */,
 				7D8388E82400BDBC00ECADF2 /* HMBaseCollectionView.m in Sources */,
+				7D8388FC2400C95900ECADF2 /* AppDelegate.m in Sources */,
 				7D8388E12400BDBC00ECADF2 /* HMTabBarController.m in Sources */,
 				7D8388E32400BDBC00ECADF2 /* HMBaseCollectionViewCell.m in Sources */,
 				7D8388DB2400BDBC00ECADF2 /* UIView+Corner.m in Sources */,
 				7D8388D52400BDBC00ECADF2 /* HMBaseViewModel.m in Sources */,
-				7D83886B23FFA6AE00ECADF2 /* SceneDelegate.m in Sources */,
 				7D8388DF2400BDBC00ECADF2 /* HMBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
