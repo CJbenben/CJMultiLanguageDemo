@@ -40,6 +40,7 @@
 		7D8388FC2400C95900ECADF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8388F92400C95900ECADF2 /* AppDelegate.m */; };
 		7D8389032400CDFC00ECADF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D8389052400CDFC00ECADF2 /* Localizable.strings */; };
 		7D8389092400D1A100ECADF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D83890B2400D1A100ECADF2 /* InfoPlist.strings */; };
+		7D8389102400D3DD00ECADF2 /* TXLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D83890F2400D3DD00ECADF2 /* TXLanguageTool.m */; };
 		85663BA84F7802920571C1DE /* Pods_CJMultiLanguageDemo_CJMultiLanguageDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839D459C6133775BB6119A53 /* Pods_CJMultiLanguageDemo_CJMultiLanguageDemoUITests.framework */; };
 		9DB0A95727558826E5ED71E2 /* Pods_CJMultiLanguageDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9664E6C0BE4C847494B4FB8 /* Pods_CJMultiLanguageDemoTests.framework */; };
 		BD54F66E1085D0FB631BC13F /* Pods_CJMultiLanguageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC2C6732EBFFA58F25036B5 /* Pods_CJMultiLanguageDemo.framework */; };
@@ -134,6 +135,8 @@
 		7D8389062400CDFF00ECADF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7D83890C2400D1A800ECADF2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		7D83890D2400D1BD00ECADF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D83890E2400D3DD00ECADF2 /* TXLanguageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXLanguageTool.h; sourceTree = "<group>"; };
+		7D83890F2400D3DD00ECADF2 /* TXLanguageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXLanguageTool.m; sourceTree = "<group>"; };
 		839D459C6133775BB6119A53 /* Pods_CJMultiLanguageDemo_CJMultiLanguageDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJMultiLanguageDemo_CJMultiLanguageDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		941E8449BFA74FB6702C54D7 /* Pods-CJMultiLanguageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMultiLanguageDemo.release.xcconfig"; path = "Target Support Files/Pods-CJMultiLanguageDemo/Pods-CJMultiLanguageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		95D1B67D33AFEB107FD02CB7 /* Pods-CJMultiLanguageDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMultiLanguageDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CJMultiLanguageDemoTests/Pods-CJMultiLanguageDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 				7D83889F2400BDBC00ECADF2 /* Base */,
 				7D83886C23FFA6AE00ECADF2 /* ViewController.h */,
 				7D83886D23FFA6AE00ECADF2 /* ViewController.m */,
+				7D83890E2400D3DD00ECADF2 /* TXLanguageTool.h */,
+				7D83890F2400D3DD00ECADF2 /* TXLanguageTool.m */,
 				7D8388F32400C59800ECADF2 /* Main.storyboard */,
 				7D83887223FFA6B200ECADF2 /* Assets.xcassets */,
 				7D83887423FFA6B200ECADF2 /* LaunchScreen.storyboard */,
@@ -630,6 +635,7 @@
 				7D8388EB2400BDBC00ECADF2 /* CTMediator+HMCustom.m in Sources */,
 				7D8388DE2400BDBC00ECADF2 /* NSString+Size.m in Sources */,
 				7D8388DC2400BDBC00ECADF2 /* UIImage+ImgSize.m in Sources */,
+				7D8389102400D3DD00ECADF2 /* TXLanguageTool.m in Sources */,
 				7D83887923FFA6B200ECADF2 /* main.m in Sources */,
 				7D8388F22400C22400ECADF2 /* TXPersonViewController.m in Sources */,
 				7D8388EF2400BFC000ECADF2 /* TXHomeViewController.m in Sources */,
